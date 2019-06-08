@@ -12,6 +12,9 @@ public class Main {
         listaStudentow.add(new Student("1", "Jan", "Kowalski", Plec.MEZCZYZNA));
         listaStudentow.add(new Student("2", "Ala", "Kowalska", Plec.KOBIETA));
         listaStudentow.add(new Student("3", "Tomasz", "Kowalski", Plec.MEZCZYZNA));
+        listaStudentow.add(new Student("3", "Tomasz", "Kowalski", Plec.MEZCZYZNA));
+        listaStudentow.add(new Student("3", "Tomasz", "Kowalski", Plec.MEZCZYZNA));
+        listaStudentow.add(new Student("3", "Tomasz", "Kowalski", Plec.MEZCZYZNA));
 
 
         for (Student student : listaStudentow) {
