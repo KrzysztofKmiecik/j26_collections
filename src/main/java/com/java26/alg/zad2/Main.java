@@ -49,13 +49,14 @@ public class Main {
         //znajdowanie indeksy maksymalnego elementu
         int indekMAx = 0;
         int indeksMin = 0;
-        for (int i=0;i<lista.size();i++){
-            if(max==lista.get(i))
-            {indekMAx=i;        }
-            if(min==lista.get(i)){
-                indeksMin=i;
+        for (int i = 0; i < lista.size(); i++) {
+            if (max == lista.get(i)) {
+                indekMAx = i;
             }
-    }
+            if (min == lista.get(i)) {
+                indeksMin = i;
+            }
+        }
         System.out.println(indekMAx);
         System.out.println(indeksMin);
 
@@ -64,4 +65,5 @@ public class Main {
         System.out.println(lista.indexOf(max));
         System.out.println(lista.indexOf(min));
 
+    }
 }
